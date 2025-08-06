@@ -1,0 +1,733 @@
+*
+{
+    box-sizing: border-box;
+    border: 0px solid;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.container
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.navbar
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 60%;
+    background-color: black;
+    /* position: fixed; */
+    border: 2px solid;
+}
+.nav,.company
+{
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dropdown
+{
+    display: none;
+}
+.pages:hover .dropdown
+{
+    display: inline;
+}
+.bar
+{
+    display: inline;
+    font-size: large;
+    text-align: center;
+}
+.main
+{
+    display: inline;
+    padding-left: 24px;
+}
+.pages
+{
+    position: relative;
+}
+.dropdown
+{
+    border: 0px solid;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 20px;
+    width: 200%;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color: black;
+    position: absolute;
+    top: 150%;
+    left: -30%;
+    text-align: left;
+}
+.submain
+{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.search_bar
+{
+    display: inline;
+    margin-left: 20px;
+}
+.search_input
+{
+    padding: 10px;
+    border: 2px solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.search_button
+{
+    width: 50px;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid blue;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: -4px;
+}
+.fa-magnifying-glass
+{
+    margin-left: -5px;
+    font-weight: bold;
+    color: blue;
+}
+.search_button:hover .fa-magnifying-glass,
+.search_button:hover
+{
+    color: white;
+    background-color: blue;
+    transition: 1s;
+}
+.fa-sun
+{
+    margin-left: 5px;
+    font-size: large;
+}
+.fa-sun:hover
+{
+    color: blue;
+    transition: 1s;
+}
+.fa-bars,.fa-moon
+{
+    display: none;
+}
+@media (max-width: 990px)
+{
+    .container
+    {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .bar
+    {
+        display: none;
+    }
+    .search_bar
+    {
+        display: none;
+    }
+    .fa-bars
+    {
+        display: inline;
+        color: white;
+        font-size: xx-large;
+        margin-left: 3%;
+    }
+    .fa-bars:hover
+    {
+        color: blue;
+        transition: 1s;
+    }
+    .fa-moon
+    {
+        display: inline;
+        font-size: xx-large;
+        margin-left: 80%;
+    }
+    .fa-moon:hover
+    {
+        color: blue;
+        transition: 1s;
+    }
+    .fa-sun
+    {
+        display: none;
+    }
+}
+.image
+{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+img
+{
+    height: 700px;
+    width: 100%;
+}
+.booking
+{
+    font-size: x-large;
+    margin-top: -33%;
+    width: 45%;
+}
+p
+{
+    font-size: large;
+}
+.book
+{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px solid transparent;
+}
+.book:hover
+{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    transition: 2s;
+}
+.appointment
+{
+    padding-top: 25%;
+    background-color: black;
+    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.smile img
+{
+    height: 100%;
+    width: 620px;
+    border-radius: 10px;
+}
+.today
+{
+    display: inline-block;
+    font-size: medium;
+    width: 450px;
+    padding: 35px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: -45%;
+    margin-top: 2px;
+    box-shadow: 5px 5px 15px 2px navy;
+}
+.fa-phone
+{
+    color: blue;
+    font-size: x-large;
+}
+.today a
+{
+    font-size: x-large;
+}
+.today a:hover
+{
+    color: blue;
+    transition: 0.5s;
+}
+.note
+{
+    display: inline-block;
+    padding-top: 100px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.note h1
+{
+    font-weight: 100;
+}
+span
+{
+    font-weight: bold;
+}
+.card 
+{
+    color: black;
+}
+.cards
+{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cards h1,
+.cards span
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.cards h1
+{
+    font-weight: 100;
+}
+.six
+{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.GD,.US,.DI,.TW,.Prosthesis,.DB
+{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+.six h1
+{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.six h1:hover
+{
+    color: blue;
+    transition: 1s;
+}
+.six i
+{
+    font-size: 50px;
+    padding-bottom: 20px;
+    color: blue;
+}
+.cards form
+{
+    text-align: center;
+}
+.learn
+{
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px solid transparent;
+}
+.learn:hover
+{
+    color: blue;
+    background: transparent;
+    border: 2px solid blue;
+    transition: 2s;
+}
+.services
+{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.main-div
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    gap: 20px;
+}
+.div
+{
+    border: 2px solid blue;
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+}
+.div img
+{
+    height: 300px;
+    width: 298px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    z-index: -1;
+}
+.div h2,.div p,.div form
+{
+    padding-left: 20px;
+}
+.div p
+{
+    color: grey;
+}
+.div button,.fa-arrow-right
+{
+    color: blue;
+    font-size: medium;
+    border: 0px;
+    background-color: black;
+    font-weight: bold;
+}
+.services h1
+{
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+}
+.div form:hover button,
+.div form:hover .fa-arrow-right
+{
+    color: green;
+    font-weight: bold;
+    transition: 1s;
+}
+.section
+{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.section img
+{
+    height: 700px;
+    z-index: 0;
+    opacity: 1;
+}
+.sales
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    gap: 20px;
+    margin-top: -40%;
+    background: linear-gradient(blue,aqua);
+    z-index: 1;
+    opacity: 1;
+}
+.opportunity h1,
+.opportunity p,
+.number h1,
+.number p
+{
+    color: white;
+}
+.opportunity h1,
+.number h1
+{
+    font-size: 50px;
+}
+.learn1
+{
+    margin-top: 50px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px solid transparent;
+}
+.learn1:hover
+{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    transition: 2s;
+}
+.opportunity p
+{
+    font-size: larger;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.number
+{
+    text-align: center;
+}
+.doctors
+{
+    margin-top: 10%;
+    padding-top: 50px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.doctors h1
+{
+    font-weight: 100;
+    font-size: 50px;
+}
+.doctors span
+{
+    font-weight: bold;
+}
+.docs
+{
+    display: grid;
+    grid-template-columns: repeat(4,20%);
+    justify-content: center;
+    gap: 5%;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.docs img
+{
+    height: auto;
+}
+.doctor
+{
+    background-color: grey;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.doctor h1
+{
+    font-size: x-large;
+}
+.doctor p
+{
+    font-size: medium;
+}
+.icons
+{
+    font-size: x-large;
+}
+.icons .fa-brands
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fa-facebook,
+.fa-square-twitter,
+.fa-google-plus
+{
+    display: none;
+}
+.doctor:hover .fa-facebook,
+.doctor:hover .fa-square-twitter,
+.doctor:hover .fa-google-plus
+{
+    display: inline-block;
+    color: blue;
+}
+.doctor:hover h1
+{
+    color: blue;
+    margin-top: 20px;
+    font-weight: bolder;
+    transition: 0s;
+}
+.doctor .icons
+{
+    margin-top: 0px;
+}
+.doctor:hover .icons
+{
+    margin-top: -50px;
+    transition: 0s;
+}
+.icons .fa-facebook:hover,
+.icons .fa-square-twitter:hover,
+.icons .fa-google-plus:hover
+{
+    color: aqua;
+    transition: 0.5s;
+}
+.blogs
+{
+    padding-top: 50px;
+    background-color: black;
+}
+.blogs h1
+{
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+.blog
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    gap: 10px;
+    border: 0px solid white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.treat
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid ;
+}
+.plus
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    gap: 0px;
+    margin-top: 10px;
+}
+.treat img
+{
+    height: auto;
+    margin-left: 10px;
+}
+.divison
+{
+    font-size: x-large;
+    padding-top: 30%;
+}
+.divison h2,
+.divison p
+{
+    margin-top: 10px;
+}
+.plus button
+{
+    background-color: black;
+}
+.fa-circle-plus
+{
+    color: aqua;
+    font-size: large;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.fa-circle-plus:hover
+{
+    color: blue;
+}
+.range
+{
+    background-color: black;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    gap: 20px;
+}
+.range-four
+{
+    margin-top: 10%;
+}
+.range-four input
+{
+    width: 100%;
+    margin: auto;
+}
+.range-four label
+{
+    font-size: large;
+}
+#Ortho,#Cosmo,
+#Imp,#React
+{
+    margin: 0px auto;
+}
+.img-doc img
+{
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+}
+.visit
+{
+    background: linear-gradient(to right,blue,aqua);
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.visit-now
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.contact-now
+{
+    display: block;
+    font-size: x-large;
+    padding-left: 35%;
+    font-weight: bold;
+}
+.book
+{
+    margin-top: 35px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 0px solid transparent;
+}
+.book:hover
+{
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    transition: 1s;
+}
+.footer
+{
+    padding-top: 50px;
+    background-color: black;
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 50px;
+    font-size: larger;
+}
+.contact-info
+{
+    /* border: 2px solid; */
+    width: 80%;
+}
+.about-explore-dentist
+{
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    justify-content: baseline;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer li,
+.footer a
+{
+    color: grey;
+}
+.footer a:hover
+{
+    color: white;
+    transition: 1s;
+}
+.fix
+{
+    background-color: black;
+    position: sticky;
+    padding-bottom: 50px;
+}
+.fa-arrow-up
+{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 100%;
+}

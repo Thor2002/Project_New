@@ -1,0 +1,607 @@
+*
+{
+    box-sizing: border-box;
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+.connect
+{
+    display: visible;
+}
+@media (max-width: 968px)
+{
+.connect
+{
+    display: none;
+}
+}
+.icons
+{
+    display: inline;
+    margin-left: 10%;
+    margin-top: 0.25%;
+    margin-bottom: 1%;
+}
+.fa-brands
+{
+    padding: 1%;
+    font-size: medium;
+}
+.phone
+{
+    display: inline;
+    margin-left: 21%;
+}
+.fa-solid,.fa-regular
+{
+    padding-left: 2%;
+}
+.fa-brands:hover,
+.mail:hover
+{
+    color: rgb(251, 124, 145);
+}
+.submain
+{
+    display: none;  
+}
+.blog:hover .submain
+{
+    display: inline;
+}
+.text
+{
+    margin-top: 10px;
+    margin-left: 11.5%;
+    font-weight: bold;
+    font-size: x-large; 
+    padding-top: 1%;
+}
+.bar
+{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 55%;
+}
+.main
+{
+    display: inline;
+}
+.nav
+{   
+    display: inline;
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: larger;
+}
+.Navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: white;
+}
+.submain
+{
+    border: 01px solid;
+    border-radius: 5px;
+    border-color: lightgrey;
+    z-index: 2;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+.submain
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    
+}
+.fa-moon
+{
+    color: black;
+    font-size: xx-large;
+    margin-left: -40px;
+    padding-top: 25px;
+}
+.form_nav
+{
+    display: inline;
+}
+.Enquire
+{
+    padding: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(251, 124, 145);
+    color: white;
+    font-weight: bold;
+}
+.Enquire:hover
+{
+    background-color: red;
+    transition: 1s;
+}
+img
+{
+    height: auto;
+    width: 100%;
+}
+.image
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 0;
+}
+.para
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+pre
+{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.Services
+{
+    padding: 30px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(251, 124, 145);
+    color: white;
+    font-weight: bold;
+}
+.Services:hover
+{
+    background-color: red;
+    transition: 1s;
+}
+.cards_decor
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin-top: -50px;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+.decor
+{
+    display: inline;
+    margin-left: 5%;
+    padding: 2%;
+    width: 335px;
+    height: 315px;
+    text-align: center;
+    border: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px;
+    z-index: 1;
+    background-color: white;
+}
+.note,.shower,.bed
+{
+    padding: 13%;
+}
+.fa-pen-to-square,.fa-shower,.fa-bed
+{
+    border: 0px solid;
+    border-radius: 100px;
+    padding: 20px;
+    font-size: x-large;
+    color: rgb(251, 124, 145);
+    background: rgba(251,124,145,0.05);
+    
+}
+h2
+{
+    color: black;
+}
+h2:hover
+{
+    color: rgb(251, 124, 145);
+}
+p
+{
+    color: gray;
+    font-size: large;
+    margin: 2px;
+    padding: 2px;
+}
+.read
+{
+    border: 2px solid rgb(251, 124, 145);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin-top: 10px;
+    background-color: white;
+    font-weight: bold;
+}
+.decor:hover .fa-pen-to-square,
+.decor:hover .fa-shower,
+.decor:hover .fa-bed
+{
+    color: white;
+    background-color: rgb(251, 124, 145);
+    transition: 0.5s;
+    
+}
+.decor:hover
+{
+    box-shadow: -10px 0px 80px lightgrey;
+    z-index: 1;
+}
+.product
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-left: -7.5%;
+}
+.picture
+{
+    width: 560px;
+}
+.pics_1,.pics_2
+{
+    border: 0px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6
+{
+    border: 0px;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.pride
+{
+    display: inline;
+    margin-left: 2%;
+    width: 500px;
+}
+.Service
+{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(251, 124, 145);
+    color: white;
+    font-weight: bold;
+}
+.Service:hover
+{
+    background-color: red;
+    transition: 0.7s;
+}
+.p1:hover,.p2:hover,.p3:hover,
+.p4:hover,.p5:hover,.p6:hover
+{
+    margin-top: -10px;
+    transition: 1s;
+}
+.designs
+{
+    margin-left: 11.5%;
+    display: flex; 
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.different
+{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+}
+#para
+{
+    margin-top: 20px;
+}
+.circle
+{
+    list-style-type: circle;
+}
+.list
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+li
+{
+    padding-top: 20px; 
+}
+.video
+{
+    position: relative;
+    text-align: center;
+    width: 560px;
+    z-index: 0;
+}
+.play
+{
+    text-align: center;
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    transform: translate(50% 50%);
+}
+.fa-play
+{
+    border: 0px solid;
+    border-radius: 100%;
+    font-size: medium;
+    padding: 20px;
+    color: white;
+    background-color: rgb(251, 124, 145);
+}
+.img8
+{
+    height: 280px;
+    width: 500px;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.numbers
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.furniture
+{
+    margin-left: 11.5%;
+    height: 100%;
+    width: 500px;
+}
+.img9
+{
+    border-radius: 10px;
+}
+.marketing
+{
+    display: inline;
+    width: 555px;
+}
+.plus
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin-top: 20px;
+}
+.background
+{
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    z-index: 0;
+}
+.bg_img
+{
+    height: auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+} 
+.budget
+{
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.button-1
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Read_1
+{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(50, 50, 50, 0.1);
+    color: white;
+    font-weight: bold;
+}
+.Read_1:hover
+{
+    color: black;
+    transition: 0.5s;
+}
+.Contact-us
+{
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgb(251, 124, 145);
+    color: white;
+    font-weight: bold;   
+}
+.Contact-us:hover
+{
+    background-color: red;
+    transition: 0.5s;
+}
+.heading
+{
+    color: white;
+    background-color: transparent;
+    font-size: 50px;
+}
+.Update
+{
+    margin-left: 30%;
+    border: 0px solid;
+    width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.form_1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.email
+{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 200px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    font-weight: bold;
+}
+.form_1:focus
+{
+    border-color: red;
+}
+.button-2
+{
+    margin-top: 50px;
+    background-color: white;
+}
+.subscribe
+{
+    border: 0px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 17px; 
+    background: rgb(251, 124, 145);
+    color: white;
+    font-weight: bold;      
+}
+.Table
+{
+    border: 0px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    background-color: darkblue;
+    color: white;
+    padding-top: 30px;
+}
+td,th
+{
+    color: white;
+    font-size: larger;
+}
+#tr-1
+{
+    font-size: xx-large;
+}
+.Table .fa-phone,
+.Table .fa-envelope
+{
+    color: lightgrey;
+    font-size: smaller;
+}
+#white:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.div
+{
+    background-color: darkblue;
+}
+.w3
+{
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fa-copyright
+{
+    font-size: x-small;
+    color: lightgrey;
+    align-self: center;
+}
+hr
+{
+    color: white;
+    font-size: xx-large;
+    display: inline;
+}
+#layout
+{
+    color: rgb(251, 124, 145);
+}
+#layout:hover
+{
+    color: red;
+}
+.Table a
+{
+    color: grey;
+}
+.Table a:hover
+{
+    color: white;
+}

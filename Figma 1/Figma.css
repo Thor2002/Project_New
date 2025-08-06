@@ -1,0 +1,625 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: 0px solid aqua;
+    font-family: poppins;
+}
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.container
+{
+    padding-left: 10%;
+    padding-right: 10%;
+    /* margin-right: 10%; */
+    /* border: 1px solid blue; */
+}
+header p
+{
+    display: inline-block;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+header a
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+header button
+{
+    color: white;
+    background-color: black;
+    /* border: 2px solid; */
+    margin-left: 130px;
+}
+nav
+{
+    margin-top: -20px;
+    margin-bottom: -45px;
+    display: inline-block;
+}
+nav h1
+{
+    display: inline;
+    font-size: xx-large;
+}
+nav .nav
+{
+    display: inline-block;
+    margin-left: 150px;
+}
+.nav li
+{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.home
+{
+    text-decoration: underline;
+}
+.nav a
+{
+    color: black;
+}
+nav form
+{
+    display: inline-block;
+    margin-left: 350px;
+}
+nav button
+{
+    padding: 25px;
+    border: 0px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+nav input
+{
+    background-color: lightgray;
+    color: darkgrey;
+}
+nav button .fa-magnifying-glass
+{
+    padding-left: 20px;
+}
+.fa-magnifying-glass,.fa-heart,.fa-cart-shopping
+{
+    font-size: x-large;
+    padding-left: 20px;
+}
+.fa-heart,.fa-cart-shopping
+{
+    margin-left: 21.8px;
+}
+.choices
+{
+    border: 1px solid grey;
+    border-bottom: 0px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+}
+.lifestyle
+{
+    margin-top: 0px;
+    border: 1px solid grey;
+    width: fit-content;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.lifestyle a
+{
+    color: black;
+    font-size: larger;
+}
+.lifestyle li
+{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.news
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: baseline;
+    gap: 0px;
+    border: 5px solid;
+    margin-left: -12%;
+    /* margin-right: 0px; */
+    margin-top: 20px;
+}
+.apple
+{
+    color: white;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.apple p
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.apple h1
+{
+    margin-left: 50px;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.Now
+{
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+    font-size: x-large;
+    padding-top: 20px;
+}
+.fa-apple
+{
+    font-size: 50px;
+}
+.image img
+{
+    width: 100%;
+    height: 100%;
+}
+.flashsales
+{
+    margin-top: 50px;
+}
+.limit
+{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+.today
+{
+    font-weight: bold;
+    color: brown;
+}
+.today h1
+{
+    color: black;
+}
+.time p
+{
+    color: brown;
+    font-size: x-large;
+}
+.time h1,.time h5
+{
+    display: inline-block;
+}
+.arrows
+{
+    margin-left: 83%;
+}
+.fa-circle-arrow-left,.fa-circle-arrow-right
+{
+    font-size: xx-large;
+    color: grey;
+}
+.card img
+{
+    background-color: lightgrey;
+    width: 80%;
+    border-radius: 10px;
+}
+.card
+{
+    position: relative;
+}
+.div
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid brown;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+    font-size: medium;
+}
+.div1
+{
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    font-size: x-large;
+    color: grey;
+    background-color: transparent;
+}
+.org
+{
+    color: red;
+}
+.card span
+{
+    text-decoration: line-through;
+    color: grey;
+}
+.fa-star,
+.fa-star-half-stroke
+{
+    color: gold;
+}
+.comment
+{
+    display: inline-block;
+    color: grey;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 20px;
+}
+.keyboard
+{
+    height: 64%;
+    background-size: contain;
+}
+.grey
+{
+    color: grey;
+}
+form
+{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.products
+{
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: brown;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+}
+.products:hover
+{
+    opacity: 0.6;
+    transition: 0.7s;
+}
+.category-grid
+{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.arrow
+{
+    margin-left: 37px;
+}
+.gadgets
+{
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.device
+{
+    border: 2px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15%;
+}
+.fa-mobile-screen-button,.fa-desktop,.fa-clock,
+.fa-camera,.fa-headphones,.fa-gamepad
+{
+    font-size: 50px;
+}
+.device:hover
+{
+    color: white;
+    background-color: brown;
+}
+.best-product
+{
+    margin-top: 50px;
+}
+.selling-prd
+{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.product
+{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: brown;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+    margin-left: 40%;
+}
+.product:hover
+{
+    opacity: 0.6;
+    transition: 0.7s;
+}
+.JBLSpeakers
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Speaker
+{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-content: baseline;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.music-exp h3
+{
+    color: lawngreen;
+}
+.music-exp h1
+{
+    font-size: 54px;
+    color: white;
+}
+.countdown
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    gap: 30px;
+    font-size: medium;
+}
+.countdown p
+{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
+}
+.buy
+{
+    padding: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: lawngreen;
+    font-size: large;
+    color: white;
+    border-radius: 10px;
+}
+.buy:hover
+{
+    background-color: brown;
+}
+.speaker-img
+{
+    padding-top: 0px;
+    border-radius: 100%;
+}
+.sunscreen
+{
+    height: 53%;
+}
+.all-prd .card .org
+{
+    display: inline;
+}
+.new
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid lawngreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    background-color: lawngreen;
+    color: white;
+    font-size: small;
+}
+.color
+{
+    display: flex;
+    justify-content: baseline;
+    flex-wrap:nowrap;
+    gap: 5px;
+}
+.red
+{
+    color: red;
+}
+.yellow
+{
+    color: yellow;
+}
+.black
+{
+    color: black;
+}
+.navy
+{
+    color: navy;
+}
+.brown
+{
+    color: brown;
+}
+.red .fa-circle
+{
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.yellow .fa-circle
+{
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.black .fa-circle
+{
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.navy .fa-circle
+{
+    border: 3px solid black;
+    border-radius: 100%;
+}
+.objects
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 20px;
+    color: white;
+}
+.WSP
+{
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    gap: 20px;
+}
+.SP
+{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 20px;
+    /* background-color: black; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.PSV
+{
+    background-color: black;
+    border-radius: 10px;
+}
+.PSV img
+{
+    height: 100%;
+    width: 100%;
+}
+.discript
+{
+    margin-top: -30%;
+    margin-left: 5%;
+    margin-right: 60%;
+}
+.objects a
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+}
+.woman-img img
+{
+    height: 315px;
+    width: 80%;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+.disc
+{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 280px;
+}
+.women-collection
+{
+    position: relative;
+    background-color: rgb(13, 13, 13);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.speaker-collection
+{
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.speaker-collection img
+{
+    border-radius: 10px solid;
+    height: 90%;
+    width: 80%;
+    padding-top: 50px;
+}
+.speaker-disc
+{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -20px;
+}
+.perfume
+{
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 42px;
+    margin-top: -20px;
+}
+.perfume img
+{
+    border-radius: 10px solid;
+    height: 90%;
+    width: 80%;
+    padding-top: 50px;
+}
+.perfume-disc
+{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -20px;
+}
+.support
+{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    justify-content: center;
+    text-align: center;
+}
+.fa-truck-fast,.fa-headset,.fa-square-check
+{
+    font-size: 56px;
+}
+.fa-truck-fast:hover,
+.fa-headset:hover,
+.fa-square-check:hover
+{
+    color: brown;
+}
