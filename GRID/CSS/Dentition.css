@@ -17,7 +17,7 @@
 {
     display: grid;
     justify-content: center;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 60%; 
     background-color: black;
     /* position: fixed; */
     border: 2px solid;
@@ -47,6 +47,12 @@
 {
     display: inline;
     padding-left: 24px;
+}
+.main a:hover
+{
+    color: blue;
+    text-decoration: underline;
+    transition: 0.5s;
 }
 .pages
 {
@@ -125,16 +131,36 @@
 {
     .container
     {
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .navbar
+    {
+        height: 240px;
     }
     .bar
     {
-        display: none;
+        display: block;
+        position: absolute;
+        top: 80px;
+    }
+    .main
+    {
+        display: block;
+    }
+    .dropdown
+    {
+        top: 20px;
+        left: -20px;
+        z-index: 1;
     }
     .search_bar
     {
-        display: none;
+        display: block;
+        position: absolute;
+        top: 190px;
+        left: 325px;
+        z-index: 0;
     }
     .fa-bars
     {
@@ -142,6 +168,7 @@
         color: white;
         font-size: xx-large;
         margin-left: 3%;
+        position: relative;
     }
     .fa-bars:hover
     {
@@ -162,6 +189,64 @@
     .fa-sun
     {
         display: none;
+    }
+    .image img
+    {
+        height: 500px;
+        width: 100%;
+    }
+    .today
+    {
+        position: absolute;
+        top: 80%;
+        left: 100%;
+    }
+    .appointment
+    {
+        grid-template-columns: 50%;
+    }
+    .smile
+    {
+        position: relative;
+    }
+    .six
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .section img
+    {
+        padding-left: 0%;
+        padding-right: 0%;
+        height: 100%;
+        width: 100%;
+    }
+    .docs
+    {
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .blog
+    {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        justify-content: center;
+        gap: 10px;
+        border: 0px solid white;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .treat img
+    {
+        height: auto;
+        width: 200px;
+        margin-left: 10px;
     }
 }
 .image
@@ -258,7 +343,7 @@ span
 {
     font-weight: bold;
 }
-.card 
+.card
 {
     color: black;
 }
@@ -396,7 +481,8 @@ span
 }
 .section img
 {
-    height: 700px;
+    height: 100%;
+    width: 100%;
     z-index: 0;
     opacity: 1;
 }
