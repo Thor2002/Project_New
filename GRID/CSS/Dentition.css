@@ -192,22 +192,25 @@
     }
     .image img
     {
-        height: 500px;
+        height: 100%;
         width: 100%;
+    }
+    .appointment
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .smile
+    {
+        position: relative;
     }
     .today
     {
         position: absolute;
         top: 80%;
         left: 100%;
-    }
-    .appointment
-    {
-        grid-template-columns: 50%;
-    }
-    .smile
-    {
-        position: relative;
     }
     .six
     {
@@ -292,18 +295,21 @@ p
     background-color: black;
     padding-bottom: 5%;
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .smile img
 {
     height: 100%;
-    width: 620px;
+    width: 40vw;
     border-radius: 10px;
+    position: relative;
 }
 .today
 {
+    position: absolute;
     display: inline-block;
     font-size: medium;
     width: 450px;
@@ -313,6 +319,8 @@ p
     margin-left: -45%;
     margin-top: 2px;
     box-shadow: 5px 5px 15px 2px navy;
+    top: 210%;
+    left: 70%;
 }
 .fa-phone
 {
