@@ -15,7 +15,7 @@ header
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: large;
+    font-size: small;
 }
 .container
 {
@@ -45,9 +45,9 @@ header button
 }
 nav
 {
-    margin-top: -20px;
-    margin-bottom: -45px;
-    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
 }
 nav h1
 {
@@ -79,32 +79,44 @@ nav .nav
 nav form
 {
     display: inline-block;
-    margin-left: 350px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: lightgray;
 }
 nav button
 {
-    padding: 25px;
+    padding-top: 13px;
+    padding-bottom: 20px;
     border: 0px;
     border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     background-color: lightgray;
 }
 nav input
 {
     background-color: lightgray;
-    color: darkgrey;
+    color: black;
 }
-nav button .fa-magnifying-glass
+.search
 {
-    padding-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-right: 20px;
 }
-.fa-magnifying-glass,.fa-heart,.fa-cart-shopping
+.fa-magnifying-glass
 {
-    font-size: x-large;
-    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 2px;
+    font-size: 25px;
 }
 .fa-heart,.fa-cart-shopping
 {
-    margin-left: 21.8px;
+    font-size: x-large;
+    padding-left: 0px;
+    margin-left: 20px;
 }
 .choices
 {
@@ -210,7 +222,7 @@ nav button .fa-magnifying-glass
 }
 .arrows
 {
-    margin-left: 83%;
+    margin-left: 79%;
 }
 .fa-circle-arrow-left,.fa-circle-arrow-right
 {
@@ -238,14 +250,14 @@ nav button .fa-magnifying-glass
     border-radius: 5px;
     background-color: brown;
     color: white;
-    font-size: medium;
+    font-size: small;
 }
 .div1
 {
     position: absolute;
     top: 10px;
     left: 70%;
-    font-size: x-large;
+    font-size: large;
     color: grey;
     background-color: transparent;
 }
@@ -276,7 +288,7 @@ nav button .fa-magnifying-glass
 }
 .keyboard
 {
-    height: 64%;
+    height: 60%;
     background-size: contain;
 }
 .grey
@@ -304,6 +316,22 @@ form
     opacity: 0.6;
     transition: 0.7s;
 }
+.h-one .fa-heart-circle-plus:hover,
+.h-two .fa-heart-circle-plus:hover,
+.h-three .fa-heart-circle-plus:hover,
+.h-four .fa-heart-circle-plus:hover
+{
+    color: red;
+    transition: 1s;
+}
+.h-one .fa-eye:hover,
+.h-two .fa-eye:hover,
+.h-three .fa-eye:hover,
+.h-four .fa-eye:hover
+{
+    color: blue;
+    transition: 1s;
+}
 .category-grid
 {
     display: grid;
@@ -311,14 +339,14 @@ form
 }
 .arrow
 {
-    margin-left: 37px;
+    margin-left: 35px;
 }
 .gadgets
 {
-    display: grid;
-    grid-template-columns: repeat(6,16%);
-    justify-content: space-between;
-    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px;
     margin-bottom: 20px;
 }
 .device
@@ -326,7 +354,7 @@ form
     border: 2px solid grey;
     border-radius: 10px;
     text-align: center;
-    padding: 15%;
+    padding: 5%;
 }
 .fa-mobile-screen-button,.fa-desktop,.fa-clock,
 .fa-camera,.fa-headphones,.fa-gamepad
@@ -356,12 +384,28 @@ form
     font-size: large;
     color: white;
     border-radius: 10px;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .product:hover
 {
     opacity: 0.6;
     transition: 0.7s;
+}
+.h-five .fa-heart-circle-plus:hover,
+.h-six .fa-heart-circle-plus:hover,
+.h-seven .fa-heart-circle-plus:hover,
+.h-eight .fa-heart-circle-plus:hover
+{
+    color: red;
+    transition: 1s;
+}
+.h-five .fa-eye:hover,
+.h-six .fa-eye:hover,
+.h-seven .fa-eye:hover,
+.h-eight .fa-eye:hover
+{
+    color: blue;
+    transition: 1s;
 }
 .JBLSpeakers
 {
@@ -431,6 +475,30 @@ form
 .all-prd .card .org
 {
     display: inline;
+}
+.h1-one .fa-heart-circle-plus:hover,
+.h1-two .fa-heart-circle-plus:hover,
+.h1-three .fa-heart-circle-plus:hover,
+.h1-four .fa-heart-circle-plus:hover,
+.h1-five .fa-heart-circle-plus:hover,
+.h1-six .fa-heart-circle-plus:hover,
+.h1-seven .fa-heart-circle-plus:hover,
+.h1-eight .fa-heart-circle-plus:hover
+{
+    color: red;
+    transition: 1s;
+}
+.h1-one .fa-eye:hover,
+.h1-two .fa-eye:hover,
+.h1-three .fa-eye:hover,
+.h1-four .fa-eye:hover,
+.h1-five .fa-eye:hover,
+.h1-six .fa-eye:hover,
+.h1-seven .fa-eye:hover,
+.h1-eight .faeyes:hover
+{
+    color: blue;
+    transition: 1s;
 }
 .new
 {
@@ -514,6 +582,7 @@ form
     margin-left: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .PSV
 {
@@ -548,9 +617,10 @@ form
 .disc
 {
     position: absolute;
-    top: 130px;
+    top: 100px;
     left: 20px;
     width: 280px;
+    /* bottom: 200px; */
 }
 .women-collection
 {
@@ -558,9 +628,10 @@ form
     background-color: rgb(13, 13, 13);
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: 2px solid white;
+    height: 100%;
 }
 .speaker-collection
 {
@@ -622,4 +693,248 @@ form
 .fa-square-check:hover
 {
     color: brown;
+}
+@media (max-width:992px)
+{
+    .container
+    {
+        padding-left: 10%;
+        padding-right: 10%;
+        border: 0px solid;
+    }
+    header
+    {
+        display: none;
+    }
+    nav h1
+    {
+        text-align: center;
+        display: block;
+        margin-left: -100px;
+    }
+    nav
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .nav ul
+    {
+        display: block;
+        margin-left: 3%;
+    }
+    .nav ul li
+    {
+        display: block;
+        text-align: center;
+    }
+    nav form
+    {
+        display: block;
+        position: relative;
+        width: 43%;
+    }
+    .fa-heart
+    {
+        display: inline-block;
+        position: absolute;
+        top: 37.5%;
+        left: 50%;
+    }
+    .fa-cart-shopping
+    {
+        display: inline-block;
+        position: absolute;
+        top: 37.5%;
+        left: 55%;
+    }
+    .choices
+    {
+        display: block;
+        border: 0px solid;
+        margin-top: 30px;
+    }
+    .lifestyle
+    {
+        display: block;
+        margin-top: 0px;
+        border: 0px solid grey;
+        border-top: 1px solid;
+        width: 100%;
+        padding-left: -100px;
+        text-align: center;
+    }
+    .news
+    {
+        margin: 0%;
+        margin-top: 3%;
+    }
+    .apple
+    {
+        color: white;
+        background-color: black;
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .apple p
+    {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .apple h1
+    {
+        margin-left: 50px;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .fa-apple
+    {
+        font-size: 45px;
+    }
+    .limit
+    {
+        display: block;
+    }
+    .time
+    {
+        display: inline-block;
+        padding-top: 20px;
+    }
+    .arrow
+    {
+        display: none;
+    }
+    .cards
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .card img
+    {
+        background-color: lightgrey;
+        width: 85%;
+        border-radius: 10px;
+    }
+    .keyboard
+    {
+        height: 55%;
+    }
+    .cooler
+    {
+        height: 48%;
+    }
+    .food
+    {
+        width: 100%;
+        height: 78%;
+    }
+    .h1-four
+    {
+        position: absolute;
+        top: 10px;
+        left: 40%;
+        font-size: large;
+        color: grey;
+        background-color: transparent;
+    }
+    .h1-six
+    {
+        position: absolute;
+        top: 10px;
+        left: 65%;
+    }
+    .h1-seven
+    {
+        position: absolute;
+        left: 58%;
+    }
+    .Speaker
+    {
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        justify-content: baseline;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+    }
+    .speaker-img
+    {
+        margin-top: 20px;
+        padding-left: 100px;
+    }
+    .product
+    {
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: brown;
+        font-size: large;
+        color: white;
+        border-radius: 10px;
+        margin-left: 17.5%;
+    }
+    .objects
+    {
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        gap: 20px;
+        color: white;
+    }
+    .women-collection
+    {
+        position: relative;
+        background-color: rgb(13, 13, 13);
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: -70px;
+        border-radius: 10px;
+        border: 2px solid white;
+        height: 100%;
+    }
+    .speaker-collection
+    {
+        padding-left: 50px;
+        border-radius: 10px;
+        background-color: black;
+        margin-top: -20px;
+        margin-left: -20px;
+    }
+    .speaker-collection img
+    {
+        border-radius: 10px solid;
+        height: 90%;
+        width: 80%;
+        padding-top: 50px;
+    }
+    .speaker-disc
+    {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: -20px;
+    }
+    .perfume
+    {
+        padding-left: 50px;
+        border-radius: 10px;
+        background-color: black;
+        margin-right: 20px;
+        margin-top: -20px;
+    }
+    .perfume img
+    {
+        border-radius: 10px solid;
+        height: 90%;
+        width: 80%;
+        padding-top: 50px;
+    }
+    .perfume-disc
+    {
+        position: absolute;
+        margin-top: -8%;
+        margin-left: -20px;
+    }
 }
